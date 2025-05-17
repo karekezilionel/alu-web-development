@@ -1,0 +1,42 @@
+/* Flexbox layout styling */
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure full viewport height */
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Set the article and aside proportions */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+article {
+  background-color: #fffdf7;
+  border: 2px solid #f2e8c9;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+article h1, article h2, article h3 {
+  color: #2c3e50;
+}
+article p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+body {
+  background-color: #bcbcbc;
+}
+
