@@ -1,0 +1,1 @@
+This project is part of the ALU Web Development curriculum. It focuses on implementing a complete webpage using semantic HTML5 based on a Figma design file. This project does not include any CSS or JavaScript. The goal is to build the structure of a real-world responsive webpage.
